@@ -1,4 +1,4 @@
-# EMG-to-Torque Estimation for Upper-Limb Exoskeleton Control
+# Robotic Assist-as-Needed Control of an Upper-Limb Rehabilitation Exoskeleton, EMG-Based Torque Estimation with Temporal Deep Learning
 
 
 
