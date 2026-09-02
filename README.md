@@ -4,6 +4,12 @@
 
 
 #### ***Licensed under the GNU Affero General Public License v3.0 or later. See [LICENSE](LICENSE). Copyright (c) 2026 Javadian. All rights reserved.***
+
+### Public Source Code
+
+Source code is not published yet. A paper based on this work is going to be published at ICORE 2026, and the implementation will be released once it is out.
+This repository currently documents the method, the evaluation protocol, and the results. For questions, data access, or collaboration, please contact the repository owner through GitHub.  
+
 ---
 
 ## Project
@@ -12,7 +18,6 @@ Type: `Semester seminar project`
 Department: `Chair of Medical Information Technology (MedIT)`, `RWTH Aachen`.  
 Supervisors: `Prof. Walter`, `Forouzan Salehi`.  
 Dataset: `Exoskeleton lab, Helmholtz-Institute for Biomedical Engineering at RWTH Aachen University.`  
-> **Status.** A paper based on this work is going to be published at ICORE 2026. The Python implementation will be released here after publication. This repository currently documents the method, the evaluation protocol, and the results.
 
 ---
 ## Introduction
