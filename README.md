@@ -5,21 +5,21 @@
 
 #### ***Licensed under the GNU Affero General Public License v3.0 or later. See [LICENSE](LICENSE). Copyright (c) 2026 Javadian. All rights reserved.***
 ---
-**Semester seminar project**
 
-Department: `Chair of Medical Information Technology (MedIT)`, `RWTH Aachen`.
+## Project
 
-Supervisors: `Prof. Walter`, `Forouzan Salehi`.
-
-Dataset: Exoskeleton lab, Helmholtz-Institute for Biomedical Engineering at RWTH Aachen University.
+Type: `Semester seminar project`  
+Department: `Chair of Medical Information Technology (MedIT)`, `RWTH Aachen`.  
+Supervisors: `Prof. Walter`, `Forouzan Salehi`.  
+Dataset: `Exoskeleton lab, Helmholtz-Institute for Biomedical Engineering at RWTH Aachen University.`  
+> **Status.** A paper based on this work is going to be published at ICORE 2026. The Python implementation will be released here after publication. This repository currently documents the method, the evaluation protocol, and the results.
 
 ---
-
+## Introduction
 Cross-subject deep learning for joint torque estimation from surface electromyography, developed as the sensing front end of an EMG-driven assist-as-needed controller for an upper-limb rehabilitation exoskeleton.
 
 Seven neural architectures spanning four model families, evaluated on two public datasets with deliberately opposite structure, under three evaluation protocols of increasing rigor, with per-subject calibration, EMG-kinematics sensor fusion, and a second regression target at the shoulder.
 
-> **Status.** A paper based on this work is going to be published at ICORE 2026. The Python implementation will be released here after publication. This repository currently documents the method, the evaluation protocol, and the results.
 
 ![EMG-driven assist-as-needed control concept](figures/fig.png)
 
