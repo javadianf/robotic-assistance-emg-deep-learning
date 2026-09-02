@@ -1,7 +1,9 @@
 # EMG-to-Torque Estimation for Upper-Limb Exoskeleton Control
 
-Licensed under the GNU Affero General Public License v3.0 or later. See [LICENSE](LICENSE).
-Copyright (c) 2026 <AUTHOR>. All rights reserved.
+
+
+
+#### ***Licensed under the GNU Affero General Public License v3.0 or later. See [LICENSE](LICENSE). Copyright (c) 2026 Javadian. All rights reserved.***
 ---
 **Semester seminar project**
 
