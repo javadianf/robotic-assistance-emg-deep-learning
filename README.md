@@ -20,6 +20,19 @@ Supervisors: `Prof. Walter`, `Forouzan Salehi`.
 Dataset: `Exoskeleton lab, Helmholtz-Institute for Biomedical Engineering at RWTH Aachen University.`  
 
 ---
+---
+
+## Motivation
+
+The clinical target is assist-as-needed torque support for stroke and neuromuscular rehabilitation. The device must estimate the user's intended joint torque from EMG, in real time, for a patient it has never seen.
+
+That last constraint is the whole problem. Within-subject EMG-to-torque estimation is well established and reported at correlations above 0.97. Cross-subject estimation, where a model trained on other people is applied to a new user, is the recognized open question, and it is what determines whether such a device can be deployed without a per-patient data collection session. Activation patterns, electrode placement, limb geometry and normalization all differ between individuals.
+
+The objectives are to determine whether the estimator generalizes under rigorous leakage-free evaluation, to identify the conditions under which it does and does not, to quantify the per-subject calibration effort needed for a new user, and to characterize how far architecture choice affects any of it.
+
+EMG sensor setup:
+![Clean session: clear envelope response to contractions](figures/elec.png)
+---
 ## Introduction
 Cross-subject deep learning for joint torque estimation from surface electromyography, developed as the sensing front end of an EMG-driven assist-as-needed controller for an upper-limb rehabilitation exoskeleton.
 
@@ -30,15 +43,7 @@ Seven neural architectures spanning four model families, evaluated on two public
 
 EMG and, in the fusion configuration, joint kinematics feed the learned torque estimator, whose causal output becomes the assistive target for the controller. The torque sensor supplies the training target only and is not a model input at inference time.
 
----
 
-## Motivation
-
-The clinical target is assist-as-needed torque support for stroke and neuromuscular rehabilitation. The device must estimate the user's intended joint torque from EMG, in real time, for a patient it has never seen.
-
-That last constraint is the whole problem. Within-subject EMG-to-torque estimation is well established and reported at correlations above 0.97. Cross-subject estimation, where a model trained on other people is applied to a new user, is the recognized open question, and it is what determines whether such a device can be deployed without a per-patient data collection session. Activation patterns, electrode placement, limb geometry and normalization all differ between individuals.
-
-The objectives are to determine whether the estimator generalizes under rigorous leakage-free evaluation, to identify the conditions under which it does and does not, to quantify the per-subject calibration effort needed for a new user, and to characterize how far architecture choice affects any of it.
 
 ---
 
