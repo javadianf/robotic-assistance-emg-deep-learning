@@ -8,7 +8,7 @@
 ### Public Source Code
 
 Source code is not published yet.     A paper based on this work "Cross-Subject Generalisation of Deep EMG-to-Torque Models for Upper-Limb Exoskeleton Control: Evaluation Leakage, Architecture Indifference, and Two-Parameter Calibration," is in preparation for ICORR 2027, Lausanne, Switzerland,  May 31-June 4, 2027., and the implementation will be released once it is out.
-This repository currently documents the method, the evaluation protocol, and the results. For questions, data access, or collaboration, please contact the repository owner through GitHub.  
+This repository currently documents the method, the evaluation protocol, and the results, the implementation currently lives in a private repository at [git-ce.rwth-aachen.de/javadian/emg-lstm](https://git-ce.rwth-aachen.de/javadian/emg-lstm). For questions, data access, or collaboration, please contact the repository owner through GitHub.  
 
 ---
 
